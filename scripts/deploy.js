@@ -10,14 +10,12 @@ async function main() {
     console.log(`Deploying contract with the account ${deployer.address}...`);
     console.log("Account balance:", (await ethers.utils.formatEther(weiAmount)));
   
-
     const token = await Token.deploy();
     await token.deployed();
 
     const newWeiAmount = (await deployer.getBalance()).toString();
 
     console.log("New account balance:", (await ethers.utils.formatEther(newWeiAmount)));
-
     console.log(`Deployed contract to: ${token.address}`);
 }
 
