@@ -2,6 +2,8 @@
 
 This project demonstrates how to deploy your very own ERC-20 token to the (Goerli testnet) Ethereum blockchain.
 
+Much of this guide was adopted from [here](https://www.ankr.com/docs/tutorials/smart-contracts/erc-20-token-with-ankr-hardhat-on-goerli/).
+
 1. Clone this repository.
 2. Open the cloned repository in VSCode or your IDE of choice.
 3. Run the following command to install dependencies:
